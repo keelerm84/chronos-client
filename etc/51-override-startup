@@ -1,1 +1,1 @@
-STARTUP="/home/pi/chronos/ui.py"
+STARTUP="/boot/chronos/chronos.py"
