@@ -1,1 +1,1 @@
-STARTUP="/boot/chronos/chronos.py"
+STARTUP="/boot/chronos-client/chronos.py"
