@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd "$(dirname "$0")"
+
 # Install PiTFT helper
 # This is required for the Adafruit TFT w/ Touch Screen
 #
@@ -8,8 +10,8 @@
 # sudo apt-get install -y adafruit-pitft-helper
 # sudo adafruit-pitft-helper -t 35r
 
-# Start the UI at boot
+# Start Chronos at boot
 sudo cp ./etc/51-override-startup /etc/X11/Xsession.d/51-override-startup
-sudo cp ./etc/S05startx /etc/rc2.d/S05startx
+sudo cp ./etc/rc.local /etc/rc.local
 
 sudo reboot
