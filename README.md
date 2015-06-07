@@ -11,7 +11,7 @@
 
         sudo diskutil mountDisk /dev/diskX
         cp -R chronos-client /Volumes/boot/chronos-client
-        cp chronos-client/boot/config.txt /Volumes/boot/chronos-client/boot/config.txt
+        cp chronos-client/boot/config.txt /Volumes/boot/config.txt
         sudo diskutil unmountDisk /dev/diskX
 
 3. Boot the new SD card image.  The `raspi-config` utility will appear on first
